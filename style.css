@@ -8,3 +8,24 @@
 body{
     background-color:var(--cor-fundo) rgb(236, 113, 133); 
 }
+.principal{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao{
+    background-color:var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color:var(--cor-principal);
+    display: block;
+}
+.container__botao{
+    background-color: transparent;
+    border: 2px solid white;
+}
